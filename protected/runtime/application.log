@@ -1,0 +1,832 @@
+2014/08/19 17:24:30 [error] [php] strpos() expects parameter 1 to be string, array given (E:\xampp\htdocs\yii\framework\web\CController.php:963)
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#1 E:\xampp\htdocs\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#3 E:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#4 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(98): SiteController->render()
+#5 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 E:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#8 E:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#10 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 E:\xampp\htdocs\forgotpass\index.php(13): CWebApplication->run()
+REQUEST_URI=/forgotpass/index.php?r=site/login
+in E:\xampp\htdocs\forgotpass\protected\views\site\login.php (52)
+in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php (98)
+in E:\xampp\htdocs\forgotpass\index.php (13)
+2014/08/19 17:24:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "forgot".' in E:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('forgot')
+#1 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('forgot')
+#2 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/forgot')
+#3 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/forgot
+HTTP_REFERER=http://localhost/forgotpass/index.php?r=site/login
+---
+2014/08/19 18:04:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('VerifikasiToken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Verifikasi...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/VerifikasiToken
+---
+2014/08/19 18:04:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('verifikasitoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/verifikasi...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/verifikasitoken
+---
+2014/08/19 18:05:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('verifikasitoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/verifikasi...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/verifikasitoken/719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:05:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('verifikasitoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/verifikasi...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/verifikasitoken/719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:05:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('verifikasitoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/verifikasi...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/verifikasitoken/719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:05:09 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('verifikasitoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/verifikasi...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/verifikasitoken/719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:05:09 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('verifikasitoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/verifikasi...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/verifikasitoken/719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:05:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('verifikasitoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/verifikasi...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/verifikasitoken/719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:07:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('VerToken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/VerToken')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/VerToken
+---
+2014/08/19 18:07:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken
+---
+2014/08/19 18:07:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/7...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:07:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/7...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:07:57 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/1')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/1
+---
+2014/08/19 18:09:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/1')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/1
+---
+2014/08/19 18:09:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/1')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/1
+---
+2014/08/19 18:09:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/1')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/1
+---
+2014/08/19 18:09:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/1')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/1
+---
+2014/08/19 18:09:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/1')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/1
+---
+2014/08/19 18:09:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/1')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/1
+---
+2014/08/19 18:11:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "verifikasitoken".' in E:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('verifikasitoken')
+#1 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('verifikasitoken')
+#2 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/verifikasi...')
+#3 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/verifikasitoken/719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:11:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/7...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:14:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/edit')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/edit
+---
+2014/08/19 18:14:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editd".' in E:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('editd')
+#1 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('editd')
+#2 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/editd')
+#3 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/editd
+---
+2014/08/19 18:15:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/edit/1')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/edit/1
+---
+2014/08/19 18:15:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/edit/view/...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/edit/view/id/1
+---
+2014/08/19 18:17:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->loadToken('1')
+#1 [internal function]: SiteController->actionVerToken('1')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=1
+---
+2014/08/19 18:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->loadToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826a0899e
+---
+2014/08/19 18:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->loadToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c0d5ce826ac99e
+---
+2014/08/19 18:37:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->loadToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+HTTP_REFERER=http://localhost/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->loadToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:38:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->loadToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:39:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->loadToken('fefaef7939d5ad7...')
+#1 [internal function]: SiteController->actionVerToken('fefaef7939d5ad7...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=fefaef7939d5ad76c32f35dfdcb0895f
+HTTP_REFERER=http://localhost/forgotpass/index.php?r=site/vertoken/view&token=fefaef7939d5ad76c32f35dfdcb0895f
+---
+2014/08/19 18:40:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->loadToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:40:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->loadToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->loadToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/19 18:42:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->loadToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/20 02:37:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/20 02:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('b6af3427afc0266...')
+#1 [internal function]: SiteController->actionVerToken('b6af3427afc0266...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=b6af3427afc026678407b61daae569f2
+HTTP_REFERER=http://localhost/forgotpass/index.php?r=site/vertoken/view&token=b6af3427afc026678407b61daae569f2
+---
+2014/08/20 02:42:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/20 02:42:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('52202cc39d034dc...')
+#1 [internal function]: SiteController->actionVerToken('52202cc39d034dc...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=52202cc39d034dcd27de28bc5a0a25fb
+---
+2014/08/20 02:45:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/20 02:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/20 02:50:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/20 03:00:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/20 03:03:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('')
+#1 [internal function]: SiteController->actionVerToken('')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=
+---
+2014/08/20 03:11:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php/site/vertoken
+---
+2014/08/20 03:11:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php/site/vertoken/view/token/6af82014e3d4e647434d18f9fd3da1a3
+---
+2014/08/20 03:11:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "vertokeln".' in E:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('vertokeln')
+#1 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertokeln')
+#2 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertokeln/...')
+#3 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forgotpass/index.php/site/vertokeln/view/token/6af82014e3d4e647434d18f9fd3da1a3
+---
+2014/08/20 03:11:33 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php/site/vertoken/view/token/6af82014e3d4e647434d18f9fd3da1a3
+---
+2014/08/20 03:15:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/6...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php/site/vertoken/6af82014e3d4e647434d18f9fd3da1a3
+---
+2014/08/20 03:16:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#4 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/6...')
+#5 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/forgotpass/index.php/site/vertoken/6af82014e3d4e647434d18f9fd3da1a3
+---
+2014/08/20 03:16:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "vesrtoken".' in E:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('vesrtoken')
+#1 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vesrtoken')
+#2 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vesrtoken/...')
+#3 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forgotpass/index.php/site/vesrtoken/6af82014e3d4e647434d18f9fd3da1a3
+---
+2014/08/20 03:17:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('6af82014e3d4e64...')
+#1 [internal function]: SiteController->actionVerToken('6af82014e3d4e64...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/t...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php/site/vertoken/token/6af82014e3d4e647434d18f9fd3da1a3?r=site/login
+HTTP_REFERER=http://localhost/forgotpass/index.php/site/vertoken/token/6af82014e3d4e647434d18f9fd3da1a3
+---
+2014/08/20 03:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/20 03:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/20 03:33:40 [error] [exception.CException] exception 'CException' with message 'Property "Users.nama_lengkap" is not defined.' in E:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('nama_lengkap')
+#1 E:\xampp\htdocs\forgotpass\protected\views\site\verifikasi.php(7): CActiveRecord->__get('nama_lengkap')
+#2 E:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#3 E:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('verifikasi', Array, true)
+#6 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(59): CController->render('verifikasi', Array)
+#7 [internal function]: SiteController->actionVerToken('bdd5ab80a39d203...')
+#8 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#9 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#10 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#14 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#15 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=bdd5ab80a39d203c87d899162551f0c2
+---
+2014/08/20 04:46:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('719b95432ce5ed6...')
+#1 [internal function]: SiteController->actionVerToken('719b95432ce5ed6...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=719b95432ce5ed6f47c095ce826ac99e
+---
+2014/08/21 10:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php:39
+Stack trace:
+#0 E:\xampp\htdocs\forgotpass\protected\controllers\SiteController.php(45): SiteController->getToken('346f24b315a6d37...')
+#1 [internal function]: SiteController->actionVerToken('346f24b315a6d37...')
+#2 E:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#3 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#4 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('vertoken')
+#8 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/vertoken/v...')
+#9 E:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\forgotpass\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forgotpass/index.php?r=site/vertoken/view&token=346f24b315a6d37447337ccd0331c335
+---
